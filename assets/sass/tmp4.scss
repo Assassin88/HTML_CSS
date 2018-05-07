@@ -1,0 +1,14 @@
+@import 'reset';
+@import 'constants';
+
+@import 'blocks/header/header';
+@import 'blocks/content/content';
+@import 'blocks/footer/footer';
+
+body {
+	background-color: $bgc-body;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+}

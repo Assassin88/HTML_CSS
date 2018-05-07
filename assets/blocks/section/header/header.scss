@@ -1,0 +1,14 @@
+
+.header{
+	background-color: $bgc-header;
+	
+	&--fixed-height{
+		height: $fixed-height;
+	}
+
+	&--top-fixed{
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+}

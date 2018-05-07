@@ -1,0 +1,19 @@
+@import 'reset';
+@import 'constants';
+
+@import 'blocks/section/header/header';
+@import 'blocks/section/content/content';
+@import 'blocks/section/footer/footer';
+@import 'blocks/section/content-wrapper/content-wrapper';
+@import 'blocks/aside/aside';
+@import 'sass/_base';
+
+html, body{
+	height: 100%;
+}
+
+body {
+	background-color: $bgc-body;
+	display: flex;
+	
+}
